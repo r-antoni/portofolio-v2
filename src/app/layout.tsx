@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-import StarCanvas from "@/components/star-background";
+//Components
 import Header from "@/components/header";
+import StarCanvas from "@/components/star-background";
 import Footer from "@/components/footer";
 
 const jetbrainsMono = JetBrains_Mono({ 
