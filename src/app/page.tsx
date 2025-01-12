@@ -9,9 +9,9 @@ import Contact from "@/components/contact";
 
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <FloatingNav navItems={navItems} />
-      <div className=""> 
+      <div className="flex flex-col justify-center items-center"> 
         <Hero />  
         <About />
         <Projects />
