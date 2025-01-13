@@ -1,9 +1,9 @@
 //Next
 import Link from "next/link";
 //Components
-import BackgroundCircles from "./circle";
-import Social from "./social";
-import MagicButton from "./ui/magic-button";
+import BackgroundCircles from "../common/circle";
+import Social from "../common/social";
+import MagicButton from "../ui/magic-button";
 
 const Contact = () => {
   return (

@@ -1,5 +1,5 @@
 //Components
-import HeroContent from './hero-content'
+import HeroContent from '../common/hero-content'
 
 const Hero = () => {
   return (

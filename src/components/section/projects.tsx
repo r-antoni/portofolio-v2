@@ -1,7 +1,7 @@
 //Data
 import { projectData } from '@/lib/data'
 //Components
-import ProjectPreview from './project-preview'
+import ProjectPreview from '../common/project-preview'
 
 const Projects = () => {
   return (

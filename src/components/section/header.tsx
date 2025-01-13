@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 //Components
-import MagicButton from './ui/magic-button'
+import MagicButton from '../ui/magic-button'
 
 const Header = () => {
   return (

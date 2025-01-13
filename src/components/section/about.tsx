@@ -3,7 +3,7 @@ import Link from "next/link"
 //Data
 import { skillData } from "@/lib/data"
 //Components
-import SkillProvider from "./skill-provider"
+import SkillProvider from "../common/skill-provider"
 
 
 const About = () => {

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 //Components
-import Header from "@/components/header";
-import StarCanvas from "@/components/star-background";
-import Footer from "@/components/footer";
+import Header from "@/components/section/header";
+import StarCanvas from "@/components/common/star-background";
+import Footer from "@/components/section/footer";
 
 const jetbrainsMono = JetBrains_Mono({ 
   subsets: ["latin"], 
