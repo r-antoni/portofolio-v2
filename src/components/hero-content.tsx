@@ -12,7 +12,7 @@ const HeroContent = () => {
   return (
     <motion.div
     animate="visible"
-    className="flex flex-row items-center justify-center px-8 lg:px-10 xl:px-20 py-40 w-full z-[20]"
+    className="flex flex-row items-center justify-center lg:px-4 xl:px-12 py-40 w-full z-[20]"
     >
       {/* Intro */}
       <motion.div 
@@ -23,7 +23,7 @@ const HeroContent = () => {
           transition={{duration: 1.25}}
           whileInView={{x:0, opacity:1}}
           viewport={{once: true}}
-      className="flex flex-col justify-center text-start gap-10 pl-2 m-auto w-full h-full">
+      className="flex flex-col justify-center text-start gap-10 m-auto w-full h-full">
        <p className="text-4xl md:text-5xl xl:6xl">Reindra Antoni, Fullstack Web Developer</p>
        <p>I&apos;m a junior react fullstack web developer. <br />Based in Bandung, Indonesia</p>
        {/* Email & Linkedin */}

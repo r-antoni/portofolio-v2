@@ -1,8 +1,10 @@
-import React from 'react'
-
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer className='flex justify-center items-center'>
+      <p className="md:text-base text-sm md:font-normal font-light">
+          Copyright © 2024 Reindra Antoni
+        </p>
+    </footer>
   )
 }
 

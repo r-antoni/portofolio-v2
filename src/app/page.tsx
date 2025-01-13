@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main>
       <FloatingNav navItems={navItems} />
-      <div className="flex flex-col justify-center items-center gap-y-20"> 
+      <div className="flex flex-col justify-center items-center px-10 gap-y-20"> 
         <Hero />  
         <About />
         <Projects />

@@ -6,7 +6,7 @@ import MagicButton from './ui/magic-button'
 
 const Header = () => {
   return (
-    <header className='absolute flex justify-between items-center top-4 w-full h-16 z-50 lg:px-[10px] xl:px-[50px]'>
+    <header className='absolute flex justify-between items-center top-4 w-full h-16 z-50 lg:px-[20px] xl:px-[50px]'>
       {/* Logo */}
         <Link href="/">
             <Image src="/logo.png" alt='Portofolio Logo' width={130} height={130} />
